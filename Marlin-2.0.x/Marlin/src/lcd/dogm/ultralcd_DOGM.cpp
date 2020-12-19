@@ -154,7 +154,7 @@ bool MarlinUI::detected() { return true; }
         }
 
       #ifndef CUSTOM_BOOTSCREEN_TIMEOUT
-        #define CUSTOM_BOOTSCREEN_TIMEOUT 3000
+        #define CUSTOM_BOOTSCREEN_TIMEOUT 4000
       #endif
       safe_delay(CUSTOM_BOOTSCREEN_TIMEOUT);
     }
